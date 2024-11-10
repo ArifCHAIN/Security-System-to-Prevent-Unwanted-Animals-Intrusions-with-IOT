@@ -15,7 +15,7 @@ arduino_socket.connect((arduino_ip, arduino_port))
 yolo = YOLO_Pred('my_obj.onnx', 'my_obj.yaml')
 
 # เซต token สำหรับส่งข้อความผ่าน LINE
-line = LINE('P4UjVDP6XuQ7IrigTjjtxnMOHZMaaYRJJ9svEKZ20Pp')
+line = LINE('My Line Token')
 
 # เปิดการทำงานของกล้อง
 cap = cv2.VideoCapture(0)
