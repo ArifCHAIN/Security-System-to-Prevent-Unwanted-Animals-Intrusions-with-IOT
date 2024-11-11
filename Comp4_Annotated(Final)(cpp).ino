@@ -5,7 +5,7 @@ const char* ssid = "Nasiminyak";  // ชื่อเครือข่าย WiF
 const char* password = "0973453602";  // รหัสผ่าน WiFi
 const int port = 8888;  // พอร์ตสำหรับเชื่อมต่อ
 
-WiFiServer server(port);  // สร้างเซิร์ฟเวอร์ WiFi
+WiFiServer server(port);  // สร้างเซิร์ฟเวอร์  WiFi
 Servo myServoX;  // สร้างวัตถุ Servo สำหรับแกน X
 Servo myServoY;  // สร้างวัตถุ Servo สำหรับแกน Y
 Servo myServoZ;  // สร้างวัตถุ Servo สำหรับแกน Z
